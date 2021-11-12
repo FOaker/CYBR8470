@@ -56,7 +56,7 @@ jobs:
         if: always()
         uses: edge/simple-slack-notify@master    
         env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_URL: ${{ https://hooks.slack.com/services/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 }}
         with:
           channel: '#deployment'
           status: ${{ job.status }}
